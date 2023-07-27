@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+	
+
+<head>
+	<meta charset="UTF-8">
+	<style>
+		.swas{
+			display: flex;
+			justify-content: center;
+
+		}
+		.swiper {
+			width:  500px;
+			height: 300px;
+		}
+
+		.swiper2 {
+			width: 500px;
+			height: 300px;
+		}
+		img {
+			width: 500px;
+			height: 300px;
+		}
+		img2 {
+			width: 500px;
+			height: 300px;
+		}
+		img3 {
+			width: 400px;
+			height: 300px;
+		}
+	</style>
+	<title>おーん</title>
+</head>
+
+<body>
+	<!-- Slider main container -->
+	<div class="swas">
+		<div class="sw">
+			<div class="swiper swiper1">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">Slide 1</div>
+					<div class="swiper-slide">Slide 2</div>
+					<div class="swiper-slide">Slide 3</div>
+					...
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+		
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+		
+				<!-- If we need scrollbar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+			<center>
+				<div>スライド<span id="swiper-page">1</span></div>
+			</center>
+		</div>
+	
+	
+		<div class="sw">
+			<div class="swiper swiper2">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">エネル
+						<div class="img">
+							<img src="./onepiece14_enel.png">
+						</div>
+					</div>
+					<div class="swiper-slide">BIGBOSS
+						<div class="img2">
+							<img src="./baseball_bigboss.png">
+						</div>
+					</div>
+					<div class="swiper-slide">D.Bスターマン
+						<div class="img3">
+							<img src="./baystars.png">
+						</div>
+					</div>
+					...
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+		
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+		
+				<!-- If we need scrollbar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+			<center>
+				<div>画像タイトル<span id="swiper-page-2">1</span></div>
+			</center>
+		</div>
+	
+	</div>
+
+
+	<hr>
+	<br>
+
+	<center>
+
+		<form id="basic_form">
+			<div>
+				名前　　　　　
+				<input id="basic_name" name="name" type="text" placeholder="名前を入力してください" />
+			</div>
+			<div>
+				メールアドレス
+				<input id="basic_email" name="email" type="text" placeholder="メールアドレスを入力してください" />
+			</div>
+			<div>
+				パスワード　　
+				<input id="basic_password" name="password" type="text" placeholder="パスワードを入力" />
+			</div>
+			<div>
+				年齢　　　　　
+				<input id="basic_age" name="age" type="text" placeholder="年齢を入力" />
+			</div>
+			<div>
+				住所　　　　　
+				<input id="basic_address" name="address" type="text" placeholder="住所を入力" />
+			</div>
+			<button type="submit">送信</button>
+		</form>
+	</center>
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>
